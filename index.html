@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <meta name="description" content="Bienvenid@s a clima App donde podras consultar el clima de tu ciudad">
+    <meta name="theme-color" content="#43affc">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" href="./img/climaapp.png" type="image/icon">
+    <link rel="apple-touch-icon" href="./img/climaapp.png">
+    <link rel="apple-touch-startup-image" href="./img/climaapp.png">
+    <link rel="manifest" href="manifest.json">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header><i class='bx bx-left-arrow-alt'></i>Clima App</header>
+        <section class="input-part">
+            <p class="info-txt"></p>
+            <div class="content">
+                <input type="text" spellcheck="false" placeholder="Nombre de la ciudad" required>
+                <div class="separator"></div>
+                <button>Obtener ubicación</button>
+            </div>
+        </section>
+        <section class="weather-part">
+            <img src="" alt="Weather Icon" ">
+        <div class="temp ">
+          <span class="numb white ">_</span>
+          <span class="deg white ">°</span><span class="white ">C</span>
+        </div>
+        <div class="weather white ">_ _</div>
+        <div class="location ">
+          <i class='bx bx-map white'></i>
+          <span class="white ">_, _</span>
+        </div>
+        <div class="bottom-details ">
+          <div class="column feels ">
+            <i class='bx bxs-thermometer'></i>
+            <div class="details ">
+              <div class="temp ">
+                <span class="numb-2 ">_</span>
+                <span class="deg ">°</span>C
+              </div>
+              <p class="white ">Temperatura</p>
+            </div>
+          </div>
+          <div class="column humidity ">
+            <i class='bx bxs-droplet-half'></i>
+            <div class="details ">
+              <span>_</span>
+              <p class="white ">Humedad</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/app.js "></script>
+    <script src="js/script.js "></script>
+  </body>
+</html>
